@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: "Helvetica"
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
