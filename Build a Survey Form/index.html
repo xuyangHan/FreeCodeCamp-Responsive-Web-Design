@@ -20,12 +20,58 @@
         <h1 id="title">FreeCodeCamp Survey Form</h1>
         <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
         <form id="survey-form">
-            <label for="name">Your Name:</label><br>
-            <input id="name"><br>
-            <label for="email">Your Email:</label><br>
-            <input id="email"><br>
-            <label for="number">Your Number:</label><br>
-            <input id="number"><br>
+            <label for="name" id="name-label">Your Name:</label><br>
+            <input id="name" class="text-input" placeholder="Please Enter Your Name" required><br>
+            <label for="email" id="email-label">Your Email:</label><br>
+            <input type="email" id="email" class="text-input" placeholder="Please Enter Your Email" required><br>
+            <label for="number" id="number-label">Your Age:</label><br>
+            <input type="number" id="number" class="text-input" placeholder="Please Enter Your Number" min="10" max="100"><br>
+            <div class="form-group">
+                <label for="mostLike-label">
+                  What is your favorite feature of freeCodeCamp?
+                </label><br>
+                <select id="dropdown" name="mostLike" class="form-control" required="">
+                  <option disabled="" selected="" value="">Select an option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="openSource">Open Source</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Would you recommend freeCodeCamp to a friend?</label>
+                <br>
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
+                <label for="definitely">Definitely</label><br>
+                <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                <label for="maybe">Maybe</label><br>
+                <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                <label for="not-sure">Not sure</label>
+            </div>
+            <div class="form-group">
+                <label>
+                    What would you like to see improved?
+                    <span class="clue">(Check all that apply)</span>
+                </label><br>
+
+                <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+                <label><br>
+                  <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label><br>
+                <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label><br>
+                <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label><br>
+                <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label><br>
+                <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label><br>
+                <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label><br>
+                <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label><br>
+                <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label><br>
+                <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label><br>
+                <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
+            </div>
+            <div class="form-group">
+                <label>Any comments or suggestions?</label>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <button type="submit" id="submit" class="submit-button"> Submit </button>
         </form>
         <footer>
             <p>
