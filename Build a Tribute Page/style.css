@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: "Helvetica"
+}
+
+#img-div {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#img-div figcaption {
+    opacity: 0.7;
+}
+
+#image {
+    width: 40%;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+#tribute-info {
+    padding-top: 2rem;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+li {
+    padding-top: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
