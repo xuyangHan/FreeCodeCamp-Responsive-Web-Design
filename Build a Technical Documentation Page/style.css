@@ -1,0 +1,46 @@
+#app {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: #24282A;
+    height: 100vh;
+}
+
+#main-doc {
+    background-color: #33373A;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header {
+    padding: 1rem;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hr3 {
+    border: 0;
+    height: 0.1rem;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+    margin: 2rem 0 1.5rem 0;
+}
+
+p {
+    color: #cbd0d0;
+    padding: 0.5rem;
+}
+
+li {
+    color: #cbd0d0;
+}
+
+code {
+    background-color: #24282A;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0.2rem 0.5rem;
+}
