@@ -17,20 +17,20 @@
         <nav id="navbar" class="col-3">
             <header>Bootstrap Starter Template</header>
             <ul class="list-group">
-                <a href="#quick-start" class="nav-link list-group-item list-group-item-action list-group-item-dark">Bootstrap Quick start</a>
+                <a href="#bootstrap-quick-start" class="nav-link list-group-item list-group-item-action list-group-item-dark">Bootstrap Quick start</a>
                 <a href="#css" class="nav-link list-group-item list-group-item-action list-group-item-dark">CSS</a>
                 <a href="#js" class="nav-link list-group-item list-group-item-action list-group-item-dark">JS</a>
-                <a href="#template" class="nav-link list-group-item list-group-item-action list-group-item-dark">A Starter Template</a>
+                <a href="#A-Starter-Template" class="nav-link list-group-item list-group-item-action list-group-item-dark">A Starter Template</a>
                 <a href="#community" class="nav-link list-group-item list-group-item-action list-group-item-dark">Community</a>
             </ul>
 
         </nav>
         <main id="main-doc" class="col-9">
-            <section class="main-section" id="quick-start">
+            <section class="main-section" id="bootstrap-quick-start">
                 <header>
                     Bootstrap Quick start
                 </header>
-                <p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with a template starter page.</p>
+                <p>Get started with <a href="https://getbootstrap.com/">Bootstrap</a>, the world’s most popular framework for building responsive, mobile-first sites, with a template starter page.</p>
             </section>
             <hr class="hr3">
             <section class="main-section" id="css">
@@ -51,15 +51,35 @@
                     Include every Bootstrap JavaScript plugin and dependency with one of our two bundles. Both <code>bootstrap.bundle.js</code> and <code>bootstrap.bundle.min.js</code>. For more information about what’s included in Bootstrap, please see
                     our contents section.
                 </p>
+                <code>
+                    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"&gt;&lt;/script&gt;
+                </code>
             </section>
             <hr class="hr3">
-            <section class="main-section" id="template">
+            <section class="main-section" id="A-Starter-Template">
                 <header>
                     A Starter Template
                 </header>
                 <p>
                     Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:
                 </p>
+                <code>
+                    &lt;!doctype html&gt;<br>
+                    &lt;html lang="en"&gt;<br>
+                    &lt;head&gt;<br>
+                    &nbsp;&nbsp;&lt;meta charset="utf-8"&gt;<br>
+                    &nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br>
+                    &nbsp;&nbsp;&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"&gt;<br>
+
+                    &nbsp;&nbsp;&lt;title&gt;Hello, world!&lt;/title&gt;<br>
+                    &lt;/head&gt;<br>
+                    &lt;body&gt;<br>
+                    &nbsp;&nbsp;&lt;h1&gt;Hello, world!&lt;/h1&gt;<br>
+                    &nbsp;&nbsp;&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">&lt;/script&gt;<br>
+
+                    &lt;/body&gt;<br>
+                    &lt;/html&gt;<br>
+                </code>
             </section>
             <hr class="hr3">
             <section class="main-section" id="community">
@@ -70,11 +90,13 @@
                     Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.
                 </p>
                 <ul>
-                    <li>Read and subscribe to The Official Bootstrap Blog.</li>
-                    <li>Join the official Slack room.</li>
-                    <li>Chat with fellow Bootstrappers in IRC. On the irc.freenode.net server, in the ##bootstrap channel.</li>
-                    <li>Implementation help may be found at Stack Overflow (tagged bootstrap-5). </li>
-                    <li>Developers should use the keyword bootstrap on packages that modify or add to the functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.</li>
+                    <li>Read and subscribe to <a href="https://blog.getbootstrap.com/">The Official Bootstrap Blog</a>.</li>
+                    <li>Join <a href="https://bootstrap-slack.herokuapp.com/">the official Slack room</a>.</li>
+                    <li>Chat with fellow Bootstrappers in IRC. On the <code>irc.freenode.net</code> server, in the <code class="">##bootstrap</code> channel.</li>
+                    <li>Implementation help may be found at Stack Overflow (tagged <a href="https://stackoverflow.com/questions/tagged/bootstrap-5" class="">bootstrap-5</a>). </li>
+                    <li>Developers should use the keyword <code class="">bootstrap</code> on packages that modify or add to the functionality of Bootstrap when distributing through <a href="https://www.npmjs.com/search?q=keywords:bootstrap" class="">npm</a>or
+                        similar delivery mechanisms for maximum discoverability.</li>
+                    <li>You can also follow <a href="https://twitter.com/getbootstrap" class="">@getbootstrap on Twitter</a> for the latest gossip and awesome music videos.</li>
                 </ul>
             </section>
         </main>
